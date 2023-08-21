@@ -10,18 +10,16 @@ int main() {
     while (1) {
         if(sw==0)
         {
-            wait(0.2);
+            wait(0.3);
             if(sw==1){
-                i++;
+                i=i+1;
             }
         } 
         if(i==10)
         {
             i=0;
         }
-       
-            myled.write(a[i]);
-            wait(1);
+        myled.write(a[i]);
         
     }
 }
