@@ -6,7 +6,7 @@ DigitalOut c(p7);
 DigitalOut d(p8);
 DigitalOut e(p9);
 DigitalOut f(p10);
-DigitalOut segg(p11);
+DigitalOut g(p11);
 
 int main() {
   while(1) {
